@@ -11,14 +11,10 @@ const createStation = async (req, res) => {
     }
 }
 
-const getAllStation = async (req, res) => {
-    const result = await getAllSta();
-    if(result){
-        res.status(200).send(result);
-    }
-    else{
-        res.status(500).send("Not Found !");
-    }
+const getAllStation =  (req, res) => {
+    res.status(200).send({
+        "name" : "Ben xe nuoc ngam"
+    })
 }
 
 const getDetailStation = async (req, res) => {
