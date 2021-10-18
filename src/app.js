@@ -4,7 +4,7 @@ const http = require('http');
 const {router} = require('./routers');
 const socketio = require('socket.io');
 const { Stream } = require('stream');
-const port = 8000;
+const port = process.env.PORT || 8000;
 const app = express();
 const pathPublish = path.join(__dirname, "../publish");
 
