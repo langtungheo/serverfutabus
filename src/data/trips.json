@@ -4,55 +4,63 @@
         "router" : "SÀI GÒN ⇒ ĐÀ LẠT",
         "time" : 8,
         "price" : 250000,
-        "desc" : 239
+        "desc" : 239,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_1.9fcce6a.png"
     },
     {
         "id" : 2,
         "router" : "SÀI GÒN ⇒ ĐÀ NẴNG",
         "time" : 20,
         "price" : 375000,
-        "desc" : 850
+        "desc" : 850,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_3.e0f5b07.png"
     },
     {
         "id" : 3,
         "router" : "ĐÀ NẴNG ⇒ HÀ NỘI",
         "time" : 18,
         "price" : 340000,
-        "desc" : 766
+        "desc" : 766,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_5.a0fe8f2.png"
     },
     {
         "id" : 4,
         "router" : "SÀI GÒN ⇒ CHÂU ĐỐC",
         "time" : 8,
         "price" : 155000,
-        "desc" : 240
+        "desc" : 240,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_7.5828590.png"
     },
     {
         "id" : 5,
         "router" : "SÀI GÒN ⇒ NHA TRANG",
         "time" : 8,
         "price" : 225000,
-        "desc" : 426
+        "desc" : 426,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_2.e873b69.png"
     },
     {
         "id" : 6,
         "router" : "SÀI GÒN ⇒ CẦN THƠ",
         "time" : 8,
         "price" : 145000,
-        "desc" : 166
+        "desc" : 166,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_4.77cd2cd.png"
     },
     {
         "id" : 7,
         "router" : "SÀI GÒN ⇒ HÀ TIÊN",
         "time" : 8,
         "price" : 185000,
-        "desc" : 315
+        "desc" : 315,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_6.56a4691.png"
     },
     {
         "id" : 8,
         "router" : "SÀI GÒN ⇒ CÀ MAU",
         "time" : 8,
         "price" : 210000,
-        "desc" : 302
+        "desc" : 302,
+        "img" : "https://futabus.vn/_nuxt/img/commonRoutes_8.9d95068.png"
     }
 ]
