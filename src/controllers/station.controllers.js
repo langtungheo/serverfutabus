@@ -1,5 +1,5 @@
 const { createSta, getAllSta, getDetailSta, updateSta, deleteSta } = require("../services/station.services");
-
+const stationsFile = require('../data/stations.json')
 const createStation = async (req, res) => {
     const data = req.body;
     const result = await createSta(data);
@@ -11,10 +11,15 @@ const createStation = async (req, res) => {
     }
 }
 
-const getAllStation =  (req, res) => {
-    res.status(200).send({
-        "name" : "Ben xe nuoc ngam"
-    })
+const getAllStation = async (req, res) => {
+    res.status(200).send(stationsFile)
+    // const result = await getAllSta();
+    // if(result){
+    //     res.status(200).send(result);
+    // }
+    // else{
+    //     res.status(500).send("Not Found !");
+    // }
 }
 
 const getDetailStation = async (req, res) => {
