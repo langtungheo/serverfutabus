@@ -1,13 +1,8 @@
 const { createTripByUser, getAllTripsSv, updateTripByUser, getDetailTripByClient, deleteTripByUser } = require("../services/trip.sevices");
+const trips = require('../data/trips.json')
 
-const getAllTrips = async (req, res) => {
-    const trips = await getAllTripsSv();
-    if(trips){
-        res.status(200).send(trips)
-    }
-    else{
-        res.status(404).send("Not Found !")
-    }
+const getAllTrips =  (req, res) => {
+    res.status(200).send(trips)
 }
 
 

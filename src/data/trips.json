@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "router" : "SÀI GÒN ⇒ ĐÀ LẠT",
+        "time" : 8,
+        "price" : 250000,
+        "desc" : 239
+    },
+    {
+        "id" : 2,
+        "router" : "SÀI GÒN ⇒ ĐÀ NẴNG",
+        "time" : 20,
+        "price" : 375000,
+        "desc" : 850
+    },
+    {
+        "id" : 3,
+        "router" : "ĐÀ NẴNG ⇒ HÀ NỘI",
+        "time" : 18,
+        "price" : 340000,
+        "desc" : 766
+    },
+    {
+        "id" : 4,
+        "router" : "SÀI GÒN ⇒ CHÂU ĐỐC",
+        "time" : 8,
+        "price" : 155000,
+        "desc" : 240
+    },
+    {
+        "id" : 5,
+        "router" : "SÀI GÒN ⇒ NHA TRANG",
+        "time" : 8,
+        "price" : 225000,
+        "desc" : 426
+    },
+    {
+        "id" : 6,
+        "router" : "SÀI GÒN ⇒ CẦN THƠ",
+        "time" : 8,
+        "price" : 145000,
+        "desc" : 166
+    },
+    {
+        "id" : 7,
+        "router" : "SÀI GÒN ⇒ HÀ TIÊN",
+        "time" : 8,
+        "price" : 185000,
+        "desc" : 315
+    },
+    {
+        "id" : 8,
+        "router" : "SÀI GÒN ⇒ CÀ MAU",
+        "time" : 8,
+        "price" : 210000,
+        "desc" : 302
+    }
+]
