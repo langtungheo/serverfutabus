@@ -1,9 +1,12 @@
 const { createTripByUser, getAllTripsSv, updateTripByUser, getDetailTripByClient, deleteTripByUser } = require("../services/trip.sevices");
 const schedules = require('../data/scheduleRoute.json')
 const {removeVietnameseTones} = require("../utils/removeVietnamesTones")
-
+const tripsPopular = require('../data/trips.json')
 const getAllTrips =  (req, res) => {
-    const {schedule, toschedule} = req.query
+    const {schedule, toschedule} = req.query;
+    if(!schedule && !toschedule){
+        res.send(tripsPopular)
+    }
     if(schedule || schedule == ''){
         const data = schedules.filter(item => removeVietnameseTones(item.OriginName).includes(removeVietnameseTones(schedule)) && item.TotalSchedule > 0)
         res.send(data)
