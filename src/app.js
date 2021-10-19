@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const http = require('http');
+const cors = require('cors')
 const {router} = require('./routers');
 const socketio = require('socket.io');
 const { Stream } = require('stream');
@@ -9,6 +10,7 @@ const app = express();
 const pathPublish = path.join(__dirname, "../publish");
 
 app.use(express.json())
+app.use(cors())
 app.use("/publish",express.static(pathPublish));
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "./views"));
