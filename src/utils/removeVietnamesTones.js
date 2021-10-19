@@ -21,10 +21,13 @@ function removeVietnameseTones(str) {
     // Bỏ các khoảng trắng liền nhau
     str = str.replace(/ + /g," ");
     str = str.trim();
+    str = str.toLowerCase();
     // Remove punctuations
     // Bỏ dấu câu, kí tự đặc biệt
     str = str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g," ");
     return str;
 }
 
-console.log(removeVietnameseTones("kết qua!"))
+module.exports = {
+    removeVietnameseTones
+}
