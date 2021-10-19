@@ -4,9 +4,6 @@ const {removeVietnameseTones} = require("../utils/removeVietnamesTones")
 const tripsPopular = require('../data/trips.json')
 const getAllTrips =  (req, res) => {
     const {schedule, toschedule} = req.query;
-    if(!schedule && !toschedule){
-        res.send(tripsPopular)
-    }
     if(schedule || schedule == ''){
         const data = schedules.filter(item => removeVietnameseTones(item.OriginName).includes(removeVietnameseTones(schedule)) && item.TotalSchedule > 0)
         res.send(data)
@@ -17,7 +14,9 @@ const getAllTrips =  (req, res) => {
     }
 }
 
-
+const getTripsPopular = async (req, res) => {
+    res.send(tripsPopular)
+}
 
 const createTrip = async (req, res) => {
     const data = req.body;
@@ -66,6 +65,7 @@ const deleteTrip = async (req, res) => {
 
 module.exports = {
     getAllTrips,
+    getTripsPopular,
     createTrip,
     updateTrip,
     getDetailTrip,
