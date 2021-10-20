@@ -14,6 +14,14 @@ const getAllTrips =  (req, res) => {
     }
 }
 
+const searchTrips = async (req, res) => {
+    const {from, to} = req.query;
+    if(from){
+        const data = schedules.filter(item => item.OriginCode === from && item.TotalSchedule > 0)
+        res.send(data)
+    }
+}
+
 const getTripsPopular = async (req, res) => {
     res.send(tripsPopular)
 }
@@ -64,6 +72,7 @@ const deleteTrip = async (req, res) => {
 }
 
 module.exports = {
+    searchTrips,
     getAllTrips,
     getTripsPopular,
     createTrip,
