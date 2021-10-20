@@ -16,7 +16,11 @@ const getAllTrips =  (req, res) => {
 
 const searchTrips = async (req, res) => {
     const {from, to} = req.query;
-    if(from){
+    if(from && to){
+        const data = schedules.filter(item => item.OriginCode === from && item.DestCode === to && item.TotalSchedule > 0)
+        res.send(data)
+    }
+    else if(from){
         const data = schedules.filter(item => item.OriginCode === from && item.TotalSchedule > 0)
         res.send(data)
     }

@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const {router} = require('./routers');
-const port = process.env.PORT || 8001
+const port = process.env.PORT || 8000
 const app = express();
 const pathPublish = path.join(__dirname, "../publish");
 
