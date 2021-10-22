@@ -4,6 +4,8 @@
         "router" : "SÀI GÒN ⇒ ĐÀ LẠT",
         "time" : 8,
         "price" : 250000,
+        "originCode":"TPHCM",
+        "descCode":"DALAT",
         "desc" : 239,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_1.9fcce6a.png"
     },
@@ -12,6 +14,8 @@
         "router" : "SÀI GÒN ⇒ ĐÀ NẴNG",
         "time" : 20,
         "price" : 375000,
+        "originCode":"TPHCM",
+        "descCode":"DANANG",
         "desc" : 850,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_3.e0f5b07.png"
     },
@@ -20,6 +24,8 @@
         "router" : "ĐÀ NẴNG ⇒ HÀ NỘI",
         "time" : 18,
         "price" : 340000,
+        "originCode":"DANANG",
+        "descCode":"HANOI",
         "desc" : 766,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_5.a0fe8f2.png"
     },
@@ -28,6 +34,8 @@
         "router" : "SÀI GÒN ⇒ CHÂU ĐỐC",
         "time" : 8,
         "price" : 155000,
+        "originCode":"TPHCM",
+        "descCode":"CHAUDOC",
         "desc" : 240,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_7.5828590.png"
     },
@@ -36,6 +44,8 @@
         "router" : "SÀI GÒN ⇒ NHA TRANG",
         "time" : 8,
         "price" : 225000,
+        "originCode":"TPHCM",
+        "descCode":"NHATRANG",
         "desc" : 426,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_2.e873b69.png"
     },
@@ -44,6 +54,8 @@
         "router" : "SÀI GÒN ⇒ CẦN THƠ",
         "time" : 8,
         "price" : 145000,
+        "originCode":"TPHCM",
+        "descCode":"CANTHO",
         "desc" : 166,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_4.77cd2cd.png"
     },
@@ -52,6 +64,8 @@
         "router" : "SÀI GÒN ⇒ HÀ TIÊN",
         "time" : 8,
         "price" : 185000,
+        "originCode":"TPHCM",
+        "descCode":"HATIEN",
         "desc" : 315,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_6.56a4691.png"
     },
@@ -60,6 +74,8 @@
         "router" : "SÀI GÒN ⇒ CÀ MAU",
         "time" : 8,
         "price" : 210000,
+        "originCode":"TPHCM",
+        "descCode":"CAMAU",
         "desc" : 302,
         "img" : "https://futabus.vn/_nuxt/img/commonRoutes_8.9d95068.png"
     }
