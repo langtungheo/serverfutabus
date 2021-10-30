@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "DESCODE": "HANOI",
+    "DESNAME": "Hà Nội",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item11.7baf682.png"
+  },
+  {
+    "id": 2,
+    "DESCODE": "NHATRANG",
+    "DESNAME": "Nha Trang",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item3.5c9b739.png"
+  },
+  {
+    "id": 3,
+    "DESCODE": "HUE",
+    "DESNAME": "Huế",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item5.58bda0b.png"
+  },
+  {
+    "id": 4,
+    "DESCODE": "HATIEN",
+    "DESNAME": "Hà Tiên",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item9.b6d2511.png"
+  },
+  {
+    "id": 5,
+    "DESCODE": "CANTHO",
+    "DESNAME": "Cần Thơ",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item12.290f5b6.png"
+  },
+  {
+    "id": 6,
+    "DESCODE": "NAMCAN",
+    "DESNAME": "Năm Căn",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item12.290f5b6.png"
+  },
+  {
+    "id": 7,
+    "DESCODE": "TPHCM",
+    "DESNAME": "Sài Gòn",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item8.de13c30.png"
+  },
+  {
+    "id": 8,
+    "DESCODE": "DALAT",
+    "DESNAME": "Đà Lạt",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item13.6914e01.png"
+  },
+  {
+    "id": 9,
+    "DESCODE": "DANANG",
+    "DESNAME": "Đà Nẵng",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item10.fe3a059.png"
+  },
+  {
+    "id": 10,
+    "DESCODE": "CHAUDOC",
+    "DESNAME": "Châu Đốc",
+    "img": "https://futabus.vn/_nuxt/img/commonDest_item10.fe3a059.png"
+  }
+]
