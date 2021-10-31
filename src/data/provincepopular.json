@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "DESCODE": "HANOI",
-    "DESNAME": "Hà Nội",
+    "DESTCODE": "HA NOI",
+    "DESTNAME": "Hà Nội",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item11.7baf682.png"
   },
   {
     "id": 2,
-    "DESCODE": "NHATRANG",
-    "DESNAME": "Nha Trang",
+    "DESTCODE": "NHA TRANG",
+    "DESTNAME": "Nha Trang",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item3.5c9b739.png"
   },
   {
     "id": 3,
-    "DESCODE": "HUE",
-    "DESNAME": "Huế",
+    "DESTCODE": "HUE",
+    "DESTNAME": "Huế",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item5.58bda0b.png"
   },
   {
     "id": 4,
-    "DESCODE": "HATIEN",
-    "DESNAME": "Hà Tiên",
+    "DESTCODE": "HA TIEN",
+    "DESTNAME": "Hà Tiên",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item9.b6d2511.png"
   },
   {
     "id": 5,
-    "DESCODE": "CANTHO",
-    "DESNAME": "Cần Thơ",
+    "DESTCODE": "CAN THO",
+    "DESTNAME": "Cần Thơ",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item12.290f5b6.png"
   },
   {
     "id": 6,
-    "DESCODE": "NAMCAN",
-    "DESNAME": "Năm Căn",
+    "DESTCODE": "NAM CAN",
+    "DESTNAME": "Năm Căn",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item12.290f5b6.png"
   },
   {
     "id": 7,
-    "DESCODE": "TPHCM",
-    "DESNAME": "Sài Gòn",
+    "DESTCODE": "TPHCM",
+    "DESTNAME": "Sài Gòn",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item8.de13c30.png"
   },
   {
     "id": 8,
-    "DESCODE": "DALAT",
-    "DESNAME": "Đà Lạt",
+    "DESTCODE": "DA LAT",
+    "DESTNAME": "Đà Lạt",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item13.6914e01.png"
   },
   {
     "id": 9,
-    "DESCODE": "DANANG",
-    "DESNAME": "Đà Nẵng",
+    "DESTCODE": "DA NANG",
+    "DESTNAME": "Đà Nẵng",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item10.fe3a059.png"
   },
   {
     "id": 10,
-    "DESCODE": "CHAUDOC",
-    "DESNAME": "Châu Đốc",
+    "DESTCODE": "CHAU DOC",
+    "DESTNAME": "Châu Đốc",
     "img": "https://futabus.vn/_nuxt/img/commonDest_item10.fe3a059.png"
   }
 ]
